@@ -1,5 +1,5 @@
-#include "TransparentStack.h"
+// #include "TransparentStack.h"
 
-const int TransparentStack::peek_at(int index) {
-  return c.at(index);
-}
+// const int TransparentStack::peek_at(int index) {
+//   return c.at(index);
+// }

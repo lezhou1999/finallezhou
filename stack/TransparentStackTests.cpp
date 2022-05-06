@@ -9,7 +9,7 @@ using namespace std;
 void TestPeekAt(){
 	cout << "Peek At Test..." << endl;
 
-	TransparentStack s;
+	TransparentStack<int> s;
 
 	s.push(0);
 	s.push(1);

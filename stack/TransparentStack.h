@@ -4,8 +4,11 @@
 
 using namespace std;
 
-class TransparentStack : public stack<int> {
+template<class T>
+class TransparentStack : public stack<T> {
 public:
-  const int peek_at(int index);
+  const T peek_at(int index) {
+    return (stack<T>::c).at(index);
+  }
 };
 #endif
